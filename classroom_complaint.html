@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Complaint Form</title>
+  <style>
+    body{
+        font-family:Arial;
+        background-color: rgba(147, 190, 240, 0.675);
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        height: 80vh;
+        margin: 10px;
+    }
+
+    .form{
+         background-color: rgba(122, 184, 255, 0.748);
+         padding: 40px;
+         border-radius:8px;
+         box-shadow: 0 5px 8px rgba(0, 119, 255, 0.801);
+         width: 400px;
+    }
+
+    .name input{
+        width:100%;
+        margin:8px 0;
+        padding:8px
+    }
+    .name label{
+        font-size:20px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="form">
+    <h1 style="color:rgb(125, 18, 226)">Class Room Facility Complaint</h1>
+    <div class="name">
+      <label>Class Room No.</label>
+      <input type="text" placeholder="Enter room number" required>
+    </div>
+    <br>
+    <div>
+      <label>Description</label>
+      <textarea placeholder="Describe the problem" required></textarea>
+    </div>
+    <br>
+    <div>
+      <label>Image of the problem</label>
+      <input type="file" accept="image/*">
+    </div>
+    <br>
+    <div>
+     <button onclick="window.location.href='Complaint.html'">Submit</button>  
+    </div>    
+  </div>
+
+
+ 
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
